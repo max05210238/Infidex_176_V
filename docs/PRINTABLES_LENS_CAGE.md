@@ -1,4 +1,4 @@
-# Printables Upload Guide — Infidex 176 V Lens Cage
+# Printables Upload Guide — Infidex 176 V Lens Cage V2
 
 ## Field-by-field recommendations
 
@@ -6,16 +6,16 @@
 
 ### Model name
 ```
-Lens Cage for Infidex 176 V — GX617-Style Protective Frame
+Lens Cage V2 for Infidex 176 V — GX617-Style Frame with Integrated Lens Hood
 ```
 
 ---
 
 ### Summary (120 character limit)
 ```
-GX617-inspired protective lens cage for the Infidex 176 V 3D printed panoramic camera. Drop-in, no mods required.
+GX617-style protective cage for Infidex 176 V with integrated lens hood and rebalanced strap points. Drop-in design.
 ```
-(113 characters)
+(117 characters)
 
 ---
 
@@ -26,7 +26,7 @@ Select: **Hobby & Makers** > **Photography** (or the closest available category)
 
 ### Additional tags
 ```
-infidex panoramic camera 35mm film analog lens-cage protective-frame gx617 fujifilm mamiya accessory
+infidex panoramic camera 35mm film analog lens-cage protective-frame gx617 fujifilm mamiya accessory lens-hood
 ```
 
 ---
@@ -48,7 +48,7 @@ Select: **No — fully human-made**
 
 ### License
 Recommended: **Creative Commons — Attribution — Share Alike** (CC BY-SA)
-> This encourages the community to remix and improve your cage design while keeping derivatives open. You can also use CC BY if you do not require Share Alike.
+> Encourages the community to remix and improve the design while keeping derivatives open. Use CC BY if you prefer no Share Alike requirement.
 
 ---
 
@@ -58,21 +58,38 @@ Everything below this line is the listing description:
 
 ---
 
-## GX617-Style Lens Cage for Infidex 176 V
+## GX617-Style Lens Cage V2 for Infidex 176 V
 
-A protective lens cage inspired by the iconic **Fujifilm GX617 Professional** panoramic camera, designed to fit the **Infidex 176 V** 3D-printed panoramic 35mm camera by Denis Aminev.
+A protective lens cage inspired by the iconic **Fujifilm GX617 Professional** panoramic camera, designed for the **Infidex 176 V** 3D-printed panoramic 35mm camera by Denis Aminev.
 
-The GX617's tubular cage frame is one of the most recognizable silhouettes in panoramic photography. This accessory brings that classic look and practical lens protection to the Infidex 176 V.
+---
+
+## The problem this solves
+
+The Infidex 176 V with a Mamiya 80mm lens is front-heavy. When hanging from a neck strap using the stock strap mounting points on the camera body, the lens droops down significantly. The camera hangs at an awkward angle, which is uncomfortable and puts stress on the body.
+
+This cage fixes that by **moving the strap anchor points forward onto the cage frame itself**, shifting the center of gravity closer to the strap attachment. The result: the camera hangs level and balanced around your neck instead of nose-diving.
 
 ---
 
 ## Features
 
-- **GX617-inspired design** — tubular cage frame that echoes the look of Fujifilm's legendary panoramic camera
+- **GX617-inspired design** — tubular cage frame that echoes the legendary Fujifilm GX617 Professional panoramic camera silhouette
+- **Integrated lens hood** — built into the front of the cage frame, providing flare protection without a separate accessory
+- **Rebalanced strap anchor points** — strap mounts are on the cage and positioned forward, so the camera hangs level instead of drooping lens-down (see photos)
+- **Compatible with Peak Design anchors** — the strap points work with Peak Design anchor links and similar quick-disconnect systems
 - **Drop-in installation** — slides onto the camera body with no modifications, no glue, no permanent changes to your Infidex
-- **Rebalanced strap points** — strap mounting points are repositioned forward compared to the stock camera, so the Infidex hangs more balanced around your neck with the heavy lens attached
-- **Designed for the helicoid 80mm lens version** — the cage geometry is optimized for the focusing helicoid mount with a Mamiya 80mm lens
-- **Simple hardware** — secured with just **4x M3 14mm screws**
+- **Designed for the helicoid 80mm lens** — cage geometry is optimized for the focusing helicoid mount with a Mamiya 80mm f/2.8 lens
+- **Simple hardware** — secured with just **4x M3 x 14mm screws**
+- **Full lens access** — the shutter speed ring, aperture ring, and focus helicoid all remain fully accessible through the cage
+
+---
+
+## Before vs After
+
+**Without cage:** Camera nose-dives when hanging from neck strap. The heavy Mamiya lens pulls the front down, making the camera hang at a steep angle.
+
+**With cage:** Camera hangs level and balanced. The forward-positioned strap points on the cage compensate for the lens weight, distributing the load evenly.
 
 ---
 
@@ -83,9 +100,10 @@ The GX617's tubular cage frame is one of the most recognizable silhouettes in pa
 | Camera | Infidex 176 V |
 | Lens mount | Focusing Helicoid (80mm Mamiya) |
 | Hardware | 4x M3 x 14mm screws |
+| Strap system | Any strap with Peak Design anchors or standard split rings |
 | Modifications needed | None — drop-in fit |
 
-This cage is designed specifically for the **helicoid 80mm lens** configuration. It has not been tested with the Classic Cone or Tube mount variants.
+This cage is designed specifically for the **helicoid 80mm lens** configuration. It has not been tested with the Classic Cone or Tube mount variants, and likely will not fit due to different lens mount geometry.
 
 ---
 
@@ -95,35 +113,46 @@ This cage is designed specifically for the **helicoid 80mm lens** configuration.
 |---|---|
 | Nozzle | 0.4 mm |
 | Layer height | 0.2 mm |
-| Inner perimeters | 4 (for rigidity) |
+| Inner perimeters | 4 (for rigidity and impact resistance) |
 | Infill | 25% or higher |
-| Material | ABS or PETG recommended for impact resistance |
+| Material | ABS or PETG recommended |
 
-ABS or PETG are recommended over PLA since this is a protective part that may take bumps. Orient the cage tubes for maximum layer adhesion along the length of each tube section.
+ABS or PETG are strongly recommended over PLA — this is a protective part that will take bumps and impacts. The cage needs to absorb shocks to protect your lens.
 
 ---
 
 ## Assembly
 
 1. Print all cage parts
-2. Slide the cage onto the Infidex 176 V body (no modification required)
+2. Slide the cage onto the Infidex 176 V body — no modification required
 3. Secure with 4x M3 x 14mm screws
-4. Attach your camera strap to the cage's forward-positioned strap mounts
+4. Thread your Peak Design anchors (or split rings) through the cage's strap mounts
+5. Clip on your strap and enjoy a balanced carry
 
 ---
 
 ## What is the Infidex 176 V?
 
-The Infidex 176 V is a fully open-source, 3D-printed panoramic 35mm film camera designed by **Denis Aminev** (Time to Waste). It shoots a 3:1 panoramic frame (72 x 24 mm) on standard 35mm film using a Mamiya TLR taking lens.
+The Infidex 176 V is a fully open-source, 3D-printed panoramic 35mm film camera designed by **Denis Aminev** (Time to Waste). It shoots a 3:1 panoramic frame (72 x 24 mm) on standard 35mm film using a Mamiya TLR taking lens, producing unique ultra-wide images.
+
+| Spec | Value |
+|---|---|
+| Format | 3:1 panoramic, 72 x 24 mm |
+| Film | Standard 35mm (135) |
+| Frames per roll | 18 |
+| Taking lens | Mamiya 80mm f/2.8 (TLR) |
+| Equivalent FOV | ~35mm equivalent |
 
 - Original project: [timetowaste.ru](https://timetowaste.ru)
-- Full documentation and files: [github.com/max05210238/Infidex_176_V](https://github.com/max05210238/Infidex_176_V)
+- Full camera files and documentation: [github.com/max05210238/Infidex_176_V](https://github.com/max05210238/Infidex_176_V)
 
 ---
 
 ## Design inspiration
 
-The cage design is inspired by the **Fujifilm GX617 Professional**, a legendary 6x17 panoramic film camera known for its distinctive tubular protective frame around the lens. The GX617's cage serves both as lens protection and as a defining visual element of the camera. This accessory brings that same concept to the 3D-printed Infidex 176 V, adding practical protection while giving the camera a more professional, finished look.
+The **Fujifilm GX617 Professional** is a legendary 6x17 panoramic film camera known for its distinctive tubular protective cage around the lens. That cage is both functional (protecting the large front element) and iconic (one of the most recognizable silhouettes in panoramic photography).
+
+This accessory brings that same concept to the 3D-printed Infidex 176 V — adding real lens protection, an integrated lens hood, and the unmistakable GX617 look. When you hang it from a strap, people will notice.
 
 ---
 
@@ -131,3 +160,4 @@ The cage design is inspired by the **Fujifilm GX617 Professional**, a legendary 
 
 - **Infidex 176 V camera:** Denis Aminev (Time to Waste) — all camera design credit belongs to him
 - **This lens cage accessory:** Original design by me, inspired by the Fujifilm GX617 Professional
+- The Infidex 176 V is an open-source project. Denis has given permission to redistribute the camera files on any platform
