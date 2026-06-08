@@ -1,0 +1,9 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Slicer temp files
+*.gcode
+*.3mf.bak
+*.tmp

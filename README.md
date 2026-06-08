@@ -4,7 +4,19 @@ Open source 3D printed panoramic 35mm film camera. Shoots a 3:1 panoramic frame 
 
 Designed by **Denis Aminev** (Time to Waste). This repository is a community mirror created to preserve the project after the original site goes offline. See [Source and license](#source-and-license).
 
-![Frame format: 3:1, 72x24mm on 35mm film](#) <!-- replace with a photo or render if you add one -->
+---
+
+## Download
+
+**Want everything in one file?** Download [`Infidex_176_V_complete.zip`](downloads/Infidex_176_V_complete.zip) (~20 MB) — this is the author's original release archive containing all STL, FBX, MOD files, the PDF manual, and the 3ds Max source. Just unzip and print.
+
+You can also clone the full repo:
+
+```bash
+git clone https://github.com/max05210238/Infidex_176_V.git
+```
+
+Or use GitHub's **Code > Download ZIP** button above to grab the entire repository (docs included).
 
 ---
 
@@ -34,20 +46,32 @@ Infidex 176 V is a fully working camera you print on an FFF/FDM printer and fini
 
 ```
 Infidex_176_V/
-├── Infidex 176 V manual.pdf      Original assembly + printing guide (Denis Aminev)
-├── Infidex 176 V_NEWEST.max      3ds Max source file (master CAD)
-├── STL/                          Print-ready STL parts
-├── FBX/                          FBX mesh exports
-├── MODS/                         Community / variant modifications
-├── README.md                     This file
-└── docs/
-    ├── PRINTING.md               Part catalog, print settings, dimensions
-    ├── ASSEMBLY.md               Step-by-step build (14 steps)
-    ├── FOCUSING_AND_USAGE.md     Focus calibration, DOF table, shooting, scanning
-    └── VIDEO_TRANSCRIPT.md       Transcript of the designer's build video
+├── Infidex 176 V manual.pdf         Original PDF manual by Denis Aminev
+├── Infidex 176 V_NEWEST.max         3ds Max master CAD source file
+├── STL/                              Print-ready STL parts
+│   ├── Body/                           Body shells, unibody, doors (10 files)
+│   ├── Lens mount/
+│   │   ├── Focusing Helicoid/          Helicoid parts inc. Blue Dot variants (15 files)
+│   │   ├── Classic Cone/               Fixed cone mount (3 files)
+│   │   ├── Tube/                       Tube mount (3 files)
+│   │   └── Old Version cone for T-22 lens/  Legacy T-22 cone (4 files)
+│   └── Small parts/                    Knobs, gears, viewfinders, lens hoods, etc. (25 files)
+├── FBX/                              FBX mesh exports (62 files)
+├── MODS/                             Community modifications
+│   ├── stl/                            Modified body, doors, helicoid mount (7 files)
+│   └── fbx/                            FBX versions of the mods (7 files)
+├── downloads/
+│   └── Infidex_176_V_complete.zip    Author's original release archive (~20 MB)
+├── docs/
+│   ├── PRINTING.md                   Part catalog, print settings, dimensions
+│   ├── ASSEMBLY.md                   Step-by-step build (14 steps)
+│   ├── FOCUSING_AND_USAGE.md         Focus calibration, DOF table, shooting, scanning
+│   └── VIDEO_TRANSCRIPT.md           Transcript of the designer's build video
+├── NOTICE.md                         Attribution and redistribution notice
+└── README.md                         This file
 ```
 
-> If you regenerate STLs from `Infidex 176 V_NEWEST.max`, keep the part names below so the assembly docs stay valid.
+> If you regenerate STLs from `Infidex 176 V_NEWEST.max`, keep the part names above so the assembly docs stay valid.
 
 ---
 
@@ -155,6 +179,24 @@ Project by **Denis Aminev**, Time to Waste.
 
 ---
 
+## File sources
+
+All design files in this repository originate from Denis Aminev's official releases on [timetowaste.ru](https://timetowaste.ru). The files were downloaded directly from the author's site before the scheduled shutdown.
+
+| Path | Source | Notes |
+|---|---|---|
+| `Infidex 176 V manual.pdf` | Author's site, unchanged | The original PDF assembly and printing guide |
+| `Infidex 176 V_NEWEST.max` | Author's site, unchanged | 3ds Max master CAD — regenerate STLs from this |
+| `STL/` | Author's site, unchanged | Print-ready parts exported by the author |
+| `FBX/` | Author's site, unchanged | Mesh exports for viewing/editing in other 3D tools |
+| `MODS/` | Author's site, unchanged | Community-contributed body and door variants |
+| `downloads/Infidex_176_V_complete.zip` | Author's original release archive | All binary files in one download (~20 MB) |
+| `docs/` | Written for this mirror | English documentation reorganized from the PDF manual and the author's build video for easier web reading |
+
+No design files have been modified. The documentation in `docs/` is a reorganization of the author's own content into Markdown for web readability.
+
+---
+
 ## Source and license
 
 Original project, files, and documentation by Denis Aminev (Time to Waste).
@@ -163,6 +205,6 @@ The designer's original site is shutting down. His own words:
 
 > This website will disappear on 21 March 2027. Project brought to a point where I am satisfied with the results and I will no longer pay for this domain. Feel free to distribute files of the project on any other website or a platform. Thank you. Peace.
 
-This repository exists to keep the project available after that date. All design credit stays with Denis Aminev. If you redistribute further, keep this attribution intact.
+This repository exists to keep the project available after that date. All design credit stays with Denis Aminev. If you redistribute further, keep this attribution intact. See [NOTICE.md](NOTICE.md).
 
 Original joint image gallery: https://timetowaste.ru/joint

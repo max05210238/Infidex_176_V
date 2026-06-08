@@ -1,11 +1,12 @@
-# Git LFS tracking for large binary assets in this repo.
-# Requires git-lfs installed locally (https://git-lfs.com) and `git lfs install` run once.
+# Binary file types — mark as binary so git doesn't attempt line-ending
+# conversion or textual diffs. No file in this repo exceeds GitHub's 100 MB
+# per-file limit, so Git LFS is not required.
 
-*.max  filter=lfs diff=lfs merge=lfs -text
-*.stl  filter=lfs diff=lfs merge=lfs -text
-*.fbx  filter=lfs diff=lfs merge=lfs -text
-*.3mf  filter=lfs diff=lfs merge=lfs -text
-*.obj  filter=lfs diff=lfs merge=lfs -text
-*.zip  filter=lfs diff=lfs merge=lfs -text
-
-# The PDF manual is small; keep it as a normal git file (not LFS).
+*.max  binary
+*.stl  binary
+*.fbx  binary
+*.3mf  binary
+*.obj  binary
+*.dae  binary
+*.zip  binary
+*.pdf  binary

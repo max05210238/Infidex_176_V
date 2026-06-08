@@ -1,5 +1,11 @@
-# Mods
+# MODS — Community Modifications
 
-Community modifications and variant parts. Keep original part names where a mod
-replaces a stock part, so the assembly docs stay valid. Document any non-obvious
-change in a short note next to the file.
+14 files (7 STL + 7 FBX) — community-contributed variants of the body, doors, and helicoid mount.
+
+| Part | Description |
+|---|---|
+| `Body_top` / `Body_bottom` | Modified body shells |
+| `Door_v1` through `Door_v4` | Four alternate door designs |
+| `Helicoid_MOUNT_BASE` | Modified helicoid mount base |
+
+Both STL (for printing) and FBX (for editing) versions are provided in their respective subfolders.
